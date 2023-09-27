@@ -12,7 +12,7 @@ import org.github.sxmuray.CMDBlock;
 import org.github.sxmuray.tools.Utils;
 
 public class CMDBlock implements Listener {
-  private List<String> enabledWorlds = CMDBlock.GetCfg().getStringList("worlds_events.worls");
+  private List<String> enabledWorlds = CMDBlock.GetCfg().getStringList("world_events.worlds");
   
   private List<String> getEnabledWorlds() {
     return this.enabledWorlds;
